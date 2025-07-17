@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"><!--vinculacion con mi hoja de estilos-->
+    <title>Document</title>
+</head>
+<body>
+<header><!--encabezado de mi pagina-->
+    <h1>Marvin's Product</h1>
+    <img src="img/cremas.png">
+</header>
+<nav>
+    <!--links de mi barra de navegacion-->
+<a href="#Sobre">Sobre</a>
+<a href="#Beneficios">Beneficios</a>
+<a href="#Comentarios">Comentarios</a>
+<a href="#Contactanos">Contactanos</a>
+<a href="#Comprar">Comprar</a>
+</nav>
+<!--descripcion de mi producto-->
+<section id="Sobre">
+<h2>Sobre Mi Producto</h2>
+<p>No es solo una crema, loción o body wash... ¡es una experiencia de suavidad, frescura y bienestar! <br>
+   Nuestros productos están hechos para dejarte una piel irresistiblemente suave, con aromas que enamoran <br>
+   y una sensación que dura todo el día.
+</p>
+</section>
+<!--lista de beneficios de mis productos-->
+<section id="Beneficios">
+<h2>Beneficios</h2>
+<ul id="lista">
+<!--lista ul para que mi lista no sea numerada-->
+    <li>Hidratan profundamente la piel</li>
+    <li>Suavizan y mejoran la textura</li>
+    <li>Aportan una fragancia duradera y agradable</li>
+    <li>Formulados con ingredientes nutritivos y seguros</li>
+    <li>Ayudan a prevenir la resequedad</li>
+    <li>Se absorben fácilmente sin dejar sensación grasosa</li>
+    <li>Ideales para uso diario</li>
+    <li>Refrescan y revitalizan la piel desde el primer uso</li>
+    <li>Aportan sensación de limpieza y bienestar</li>
+    <li>Aptos para todo tipo de piel</li>
+</ul>
+</section>
+
+<!--area de los comentarios de mis clientes-->
+<section id="Comentarios">
+<h2>Comentarios de Clientes</h2>
+<blockquote>
+"Desde que empecé a usar la crema y la loción, mi piel está mucho más suave e hidratada. <br>
+¡El aroma es increíble y dura todo el día!" -   Jahdor Brown
+</blockquote>
+<blockquote>
+"El body wash es una maravilla. Hace bastante espuma, deja la piel limpia y con una sensación <br>
+súper fresca. ¡Recomendado al 100%!" - Stephanie Cardona
+</blockquote>
+</section><!--fin de comentarios-->
+
+<section id="Contactanos"><!--creacion del la seccion donde estara ubicado mi formulario-->
+    <h2>Contactanos</h2>
+<form action="#" method="post">
+
+    <label for="nombre">Nombre: </label><br><!--saltos de linea-->
+    <input type="text" class="linea" id="nombre" name="nombre" required>
+    <br><br><!--saltos de linea-->
+    <label for="Correo">Correo Electronico: </label>
+    <br>
+    <input type="text" class="linea" id="correo" name="correo" required>
+    <br><br><!--saltos de linea-->
+    <label for="mensaje">Escribenos un mensaje:</label>
+    <br><!--saltos de linea-->
+    <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="aqui..."></textarea>
+    <br><br><!--place holder guarda un texto y se reemplaza hasta que el usuario escriba-->
+    <section id="submit">
+        <input type="submit" value="Enviar">
+    </section>
+</form><!--fin de mi formulario-->
+</section>
+<!--seccion para mi boton solamente-->
+<section id="Comprar">
+    <section id="Boton">
+    <button type="submit" class="Boton"> Comprar Ahora</button>
+    </section>
+</section>
+
+<!--pie de mi pagina-->
+<footer>
+<h4>Derechos Reservados 2025</h4>
+<p>Siguenos en redes: @marvin's_product</p>
+</footer>
+</body>
+</html>
